@@ -27,7 +27,7 @@ function Navbar({homePath, contactPath}){
                     
                 </div>
                 <div className={styles.right}>
-                        <button onClick={menu}>Ahmet Tat</button>
+                        <button onClick={menu}>Profilo</button>
                         {
                             isOpen && (
                                 <div className={styles.toggle_menu}>
