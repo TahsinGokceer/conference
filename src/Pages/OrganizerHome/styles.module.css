@@ -1,0 +1,30 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container h1{
+    font-weight: 100;
+    font-size: 4.5rem;
+}
+
+.container h1 > span{
+    font-weight: 400;
+}
+
+.container p{
+    font-size: 1.1rem;
+    line-height: 1.9;
+    text-indent: 50px;
+    margin-bottom: 3rem;
+}
+
+.container .btn{
+    border: 1px solid #000;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 7px;
+    background-color: rgb(239, 239, 239);
+}

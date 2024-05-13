@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    height: 70px;
+}
+
+.container h4{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.detail{
+    border: 1px solid gray;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 7px;
+}

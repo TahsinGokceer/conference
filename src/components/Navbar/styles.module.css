@@ -1,0 +1,72 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.navbar .left{
+    margin: 0;
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left .logo{
+    display: flex;
+    font-size: 17px;
+}
+
+.navbar .left ul{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar .left ul li{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.navbar .left ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar .left ul li a:hover{
+    border-bottom: 1px solid #000;
+}
+
+.navbar .right{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+.navbar .right .toggle_menu{
+    position: fixed;
+    right: 2.1rem;
+    top: 4.6rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 10rem;
+}
+
+.navbar .right .toggle_menu ul{
+    list-style-type: none;
+}
+
+.navbar .right .toggle_menu ul li{
+    margin-top: 0.5rem;
+}
+
+.navbar .right .toggle_menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar .right .toggle_menu ul li:last-child > a{
+    color: rgb(208, 22, 22);
+}

@@ -1,0 +1,67 @@
+.container{	
+	margin: 6rem auto 0 auto;
+	width: 50%;
+	height: 70%;
+}
+
+.drag{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	border: 3px dashed #000000;
+	padding: 60px;
+}
+
+.drag h1{
+	margin: 0.6rem;
+}
+
+button{
+	font-size: 16px;
+	padding: 12px;
+	border-radius: 5px;
+	margin-top: 1rem;
+	border: 1px solid gray;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+p{
+	padding-top: 0.8rem;
+	font-size: 10px;
+}
+
+.files{
+	list-style-type: none;
+}
+
+.file{
+	font-size: 1.3rem;
+	margin-bottom: 1rem;	
+}
+
+p.confirm{
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+button.reload{
+	margin-right: 2rem;
+}
+
+.confirm{
+	border: 1px solid gray;
+	text-decoration: none;
+	color: #000;
+	padding: 10px 15px;
+	border-radius: 7px;
+	background-color: rgb(239, 239, 239);
+}
+
+h2{
+	margin-bottom: 2rem;
+}

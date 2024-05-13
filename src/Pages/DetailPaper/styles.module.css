@@ -1,0 +1,39 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+h5{
+    font-size: 19px;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 4rem;
+}
+
+.buttons{
+    margin-top: 5rem;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.buttons button{
+    margin-right: 3rem;
+    width: 150px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;   
+}
+
+.form textarea{
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+}
+
+.form button{
+    margin-left: 4rem;
+    margin-top: 0;
+}
